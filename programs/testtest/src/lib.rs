@@ -18,6 +18,3 @@ pub mod testtest {
         instructions::pay_spl(ctx, amount)
     }
 }
-
-#[derive(Accounts)]
-pub struct Initialize {}
